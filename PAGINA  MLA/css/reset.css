@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+/*header geral*/
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px; /*tirar se der ruim*/
+    min-width: 320px;
+    margin: auto;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+header{
+    background-color:#fff ; /*#f9dbaeff*/
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+header .list-items{
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header-logo{
+    width: 140px;
+    border-radius: 30px;
+    border: 2px solid #4f757bff;
+}
+
+.list-items li a{
+    color: #4f757bff;
+}
+
+.list-items li a:hover{
+    color: #a2584f;
+    font-size: 17px;
+}
+
+.menu{
+    justify-content: space-between;
+}
+
+/*footer geral*/
+
+footer{
+    background-color:#fff;
+    height: 97px;
+    display: flex;
+    align-items:center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: #4f757bff;
+    text-align: right;
+}
+
+.footer p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.github{
+    text-decoration: none;
+    color: #4f757bff;
+}
+
+.github:hover{
+    color: #f9dbaeff;
+}
+
+.footer-img a {
+    color: #4f757bff;
+    font-size: 4em;
+    transition: text-shadow 1s;
+}
+  
+.footer-img a:active,
+.footer-img a:hover {
+    text-decoration: none;
+    color: #f9dbaeff;
+  }
+

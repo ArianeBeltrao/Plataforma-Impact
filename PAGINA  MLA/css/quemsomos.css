@@ -1,0 +1,30 @@
+
+.texto-sobrenos{
+  position: absolute;
+  right: 15%;
+  bottom: 0.25rem;
+  left: 15%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: black;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.btn-quemsomos{
+    background-color: #4f757bff;
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-quemsomos:hover{
+    color: #f9dbaeff;
+}
+
+#quemsomos-sobrenos{
+    background-color: #b7d7dc;
+    padding: 80px;
+}
+
